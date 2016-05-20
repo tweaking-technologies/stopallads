@@ -10,7 +10,7 @@ Directory structure
 -------------------
 
 * Top-level files:
-  * `firstRun.html` and `firstRun.js`: First-run page, see below
+  * `after-install.html` and `firstRun.js`: after-install page, see below
   * `i18n.js`: Localization functions, should be included by all pages.
   * `messageResponder.js`: Script to be used on the background page to respond
     to messages sent by UI code.
@@ -30,32 +30,11 @@ Directory structure
   *not to be imported*, these files should rather be replaced by
   product-specific versions providing the same interface.
 
-Testing
--------
 
-In Firefox and Safari the HTML pages can be opened directly from the file system
-and should be fully functional. Due to security restrictions in Chrome, there
-you need to pass in the `--allow-file-access-from-files` command line flag when
-starting the application. Alternatively, you can run `test_server.py` (requires
-Python 2.7) and open the HTML pages under URLs like
-`http://127.0.0.1:5000/firstRun.html`.
-
-Various aspects of the pages can be tested by setting parameters in the URL. The
-only universal parameter is `locale`, e.g. `?locale=es-AR`. This parameter
-overrides browser's locale which will be used by default.
-
-Translations
-------------
-
-Translations for the strings in this project are managed using the online
-[Crowdin platform][crowdin]. To synchronise with Crowdin you can use the build
-script. To get a list of the possible commands type `./build.py -t generic` at
-the command line. (You will also need the Crowdin API key for the project.)
-
-firstRun.html
+after-install.html
 -------------
 
-This is the implementation of the Stop All Ads first-run page that will show up
+This is the implementation of the Stop All Ads after-install page that will show up
 whenever changes are applied automatically to user's Stop All Ads configuration.
 This will usually happen when the user first installs Stop All Ads (initial
 setup), but it can also happen in case the user's settings get lost.
