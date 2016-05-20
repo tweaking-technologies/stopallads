@@ -16,5 +16,4 @@ Run the following in the project directory:
     build.py build
 
 This will create a build with a name in the form stopallads-1.0.0XX.
-This file will contain the source code currently in the repository and all
-available locales.
+
