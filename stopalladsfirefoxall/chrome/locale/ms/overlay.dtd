@@ -1,0 +1,30 @@
+<!ENTITY notification.button.no "&amp;Tiada">
+<!ENTITY sync.label "Syn&amp;c tatacara Stop All Ads">
+<!ENTITY whitelist.site.label "Nyahaktifkan pada ?1?">
+<!ENTITY filters.label "&amp;Tatarajah penapis">
+<!ENTITY disable.label "Nyahaktif di semua tempat">
+<!ENTITY objecttab.title "Sekat">
+<!ENTITY objecttab.tooltip "Klik di sini untuk menyekat objek ini dengan Stop All Ads">
+<!ENTITY menuitem.label "&amp;Pilihan Stop All Ads">
+<!ENTITY objecttabs.label "Paparkan &amp;tab pada Flash dan Java">
+<!ENTITY sendReport.label "&amp;Lapor isu pada laman ini">
+<!ENTITY whitelist.page.label "Nyahaktifkan pada laman ini sahaja">
+<!ENTITY context.image.label "Stop All Ads: Sekat imej">
+<!ENTITY notification.button.yes "&amp;Ya">
+<!ENTITY opensidebar.label "Buka &amp;item yang boleh disekat">
+<!ENTITY notification.button.close "&amp;Tutup">
+<!ENTITY contribute.label "Sumbang kepada Stop All Ads">
+<!ENTITY toolbarbutton.label "Stop All Ads">
+<!ENTITY context.frame.label "Stop All Ads: Sekat bingkai">
+<!ENTITY blocked.tooltip "Item yang disekat pada laman ini:">
+<!ENTITY counthits.label "&amp;Kira kiraan penapis">
+<!ENTITY showinstatusbar.label "Papar&amp;kan di bar status">
+<!ENTITY sidebar.title "Item yang boleh disekat pada laman semasa">
+<!ENTITY options.label "Piliha&amp;n">
+<!ENTITY context.object.label "Stop All Ads: Sekat objek">
+<!ENTITY context.removeWhitelist.label "Stop All Ads: Aktifkan semula pada laman ini">
+<!ENTITY filters.tooltip "Penapis yang paling aktif:">
+<!ENTITY closesidebar.label "Tutup &amp;item yang boleh disekat">
+<!ENTITY showintoolbar.label "Papa&amp;rkan di bar alatan">
+<!ENTITY status.tooltip "Keadaan:">
+<!ENTITY context.media.label "Stop All Ads: Sekat audio/video">

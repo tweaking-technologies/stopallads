@@ -1,0 +1,179 @@
+<!ENTITY wizard.title                   "Issue reporter">
+<!ENTITY privacyPolicy.label            "Privacy policy">
+
+<!ENTITY dataCollector.heading          "Welcome to the issue reporter">
+<!ENTITY dataCollector.description      "Stop All Ads  is gathering the required information; Thank you for your patience!">
+
+<!-- Please keep typeSelector.heading short - it is shown in the progress bar, not much space there -->
+<!ENTITY typeSelector.heading           "Select issue type">
+
+<!ENTITY typeSelector.description       "
+  This window will give you a step-by-step explanation necessary to be followed for the submission of Stop All Ads  issue report. Please select the specific issue that you are experiencing
+  on this page:
+">
+
+<!ENTITY typeSelector.falsePositive.label       "Stop All Ads  is blocking too &amp;much">
+<!ENTITY typeSelector.falsePositive.description "
+  Select this option if the page lacks relevant content, is displayed incorrectly or
+  fails to function properly. You can find out whether Stop All Ads  is the reason behind the 
+  problem by deactivating it for a while.
+">
+
+<!ENTITY typeSelector.falseNegative.label       "Stop All Ads  doesn't block an ad&amp;vertisement">
+<!ENTITY typeSelector.falseNegative.description "
+  Select this option if an advertisement is running in spite of
+  Stop All Ads  being active.
+">
+
+<!ENTITY typeSelector.other.label               "O&amp;ther issue">
+<!ENTITY typeSelector.other.description         "
+  Select this option if you think there is an issue with Stop All Ads  itself rather
+  than its filters.
+">
+
+<!ENTITY showRecentReports.label                "Show recently submitted reports">
+<!ENTITY recentReports.label                    "Your recently submitted reports">
+<!ENTITY recentReports.clear.label              "&amp;Remove all reports">
+<!ENTITY update.inProgress.description          "
+  Stop All Ads  needs to update your filter subscriptions to ensure that the
+  issue hasn't been fixed already. Please wait...
+">
+
+<!ENTITY update.fixed.description               "
+  The updates to your filter subscriptions probably fixed the issue you
+  were reporting. Please referesh the page and retry, hit Report again if the
+  problem persists.
+">
+
+<!ENTITY outdatedSubscriptions.description      "
+  The following filter subscriptions haven't been updated for at least two
+  weeks. Please update these subscriptions before submitting a report, as the
+  issue might have been fixed already.
+">
+
+<!ENTITY update.start.label                     "Start update now">
+
+<!ENTITY issues.description                     "
+  Stop All Ads  has found issues with your configuration that might be causing
+  this issue or will make the report reading difficult.
+">
+
+<!ENTITY issues.whitelist.description           "
+  Stop All Ads  is currently not active on the page you are reporting. Please re-activate
+  it and refresh the page before submitting the report to assist in fixing 
+  this issue.
+">
+<!ENTITY issues.whitelist.remove.label          "Re-enable Stop All Ads  on this page">
+
+<!ENTITY issues.disabled.description            "
+  Stop All Ads  is deactivated, it will not block anything at present.
+">
+<!ENTITY issues.disabled.enable.label           "Enable Stop All Ads ">
+
+<!ENTITY issues.nofilters.description           "
+  Stop All Ads  isn't barring anything on the current page. The issue you are
+  observing is probably not related to Stop All Ads .
+">
+
+<!ENTITY issues.nosubscriptions.description     "
+  You do not appear to be subscribed to any of the pre-defined filter lists that
+  automatically skim unwanted content from websites.
+">
+<!ENTITY issues.nosubscriptions.add.label       "Add filter subscription">
+
+<!ENTITY issues.subscriptionCount.description   "
+  It seems that you have too many filter subscriptions. This
+  setup is not recommended as it will make the possibility
+  of issues much higher. We also cannot process your issue report as it
+  is unclear which filter subscription author needs to take action. Please
+  remove all but the really needful filter subscriptions and test whether
+  the issue still occurs.
+">
+<!ENTITY issues.openPreferences.label           "Open filter preferences">
+
+<!ENTITY issues.ownfilters.description          "
+  Some of the filters applied on this page are user-defined. Please deactivate
+  the filters that might have caused the issue:
+">
+<!ENTITY issues.ownfilters.disable.label        "Disable filter">
+
+<!ENTITY issues.disabledgroups.description      "
+  The following filter subscriptions / filter groups are deactivated, but they might have
+  an effect on this page:
+">
+<!ENTITY issues.disabledgroups.enable.label     "Enable filter subscription / filter group">
+
+<!ENTITY issues.disabledfilters.description     "
+  The following filters are deactivated, yet they might have an effect on this page:
+">
+<!ENTITY issues.disabledfilters.enable.label    "Enable filter">
+
+<!ENTITY issues.override.label                  "The &amp;configuration is correct, continue with the report">
+<!ENTITY issues.change.description              "
+  Your configuration has been updated. Please refresh the page to test the updations
+  and submit a report if the issue hasn't been fixed by the alterations.
+">
+
+<!ENTITY typeWarning.description                "
+  You have indicated that you want to report a general issue with Stop All Ads  rather
+  than a problem with the filters. Please be adviced that such issues are best reported
+  in the [link]Stop All Ads  forum[/link]. You should only use the issue reporter to
+  report an existing discussion, as your report will not be noticed
+  unless you provide the link to it. A link will be generated automatically
+   after submitting the report.
+">
+
+<!ENTITY typeWarning.override.label             "I under&amp;stand and want to submit the report anyway">
+<!ENTITY reloadButton.label                     "&amp;Reload page">
+<!-- Please keep screenshot.heading short - it is shown in the progress bar, not much space there -->
+<!ENTITY screenshot.heading           "Attach screenshot">
+
+<!ENTITY screenshot.description       "
+  The same page may look different for different people. It will help us better 
+  understand the issue if you attach a screenshot to your report. You can remove
+  sections containing sensitive information as well as highlight areas where the
+  problem is noticeable. Click the corresponding button and select
+  a section of the image with your mouse to highlight the issue.
+">
+
+<!ENTITY screenshot.attach.label      "A&amp;ttach a page image to the report">
+<!ENTITY screenshot.mark.label        "&amp;Mark the problem">
+<!ENTITY screenshot.remove.label      "&amp;Remove sensitive data">
+<!ENTITY screenshot.undo.label        "&amp;Undo">
+<!-- Please keep commentPage.heading short - It is shown in the progress bar, not much space there -->
+<!ENTITY commentPage.heading          "Enter comment">
+
+<!ENTITY commentPage.description      "
+  The text field below is given to write a comment to make us understand the problem better.
+  This step is optional but recommended if the problem isn't immediately noticeable.
+  You can preview the report data before sending it too.
+">
+
+<!ENTITY emailComment.label           "
+  We encourage you to enter a valid email address so that we can contact you if for queries
+  regarding your report. It will also allow us to recognize your contributions and to prioritize them accordingly.
+">
+<!ENTITY comment.label                "&amp;Comment (optional):">
+<!ENTITY comment.lengthWarning        "Please note that only the first 1000 characters of your comment are valid.">
+<!ENTITY email.label                  "E&amp;mail:">
+<!ENTITY anonymous.label              "&amp;Anonymous submission">
+<!ENTITY anonymity.warning            "We won't be able to come back to you and hence the report priority will become lower.">
+
+<!ENTITY attachExtensions.label       "Attach a list of active e&amp;xtensions to the report in case an add-on conflict is the cause of the problem">
+<!ENTITY sendButton.label             "Se&amp;nd report">
+<!ENTITY showData.label               "Show report data">
+<!ENTITY data.label                   "Re&amp;port data:">
+<!-- Please keep sendPage.heading short - it is shown in the progress bar, not much space there -->
+<!ENTITY sendPage.heading             "Send report">
+<!ENTITY sendPage.waitMessage         "Please wait while Stop All Ads  is submitting your report.">
+<!ENTITY sendPage.confirmation        "Your report has been saved. You can access it at the following address:">
+<!ENTITY sendPage.knownIssue          "The issue you reported has probably already been reported. More information:">
+
+<!-- Note: the placeholder ?1? will be replaced by the error code -->
+<!ENTITY sendPage.errorMessage        "
+  An attempt to send the report failed with error code &quot;?1?&quot;. Please check your Internet connection and retry. If the problem persists please request
+  assistance in the [link]Stop All Ads  forum[/link].
+">
+<!ENTITY sendPage.retry.label         "Send again">
+
+<!ENTITY copyLink.label               "&amp;Copy report link">

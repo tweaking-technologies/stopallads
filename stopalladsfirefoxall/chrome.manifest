@@ -1,0 +1,6 @@
+content   stopallads chrome/content/
+skin      stopallads classic/1.0 chrome/skin/
+locale    stopallads {{LOCALE}} chrome/locale/{{LOCALE}}/
+
+# fennec settings
+override chrome://stopallads/content/ui/settings.xul chrome://stopallads/content/ui/fennecSettings.xul application={a23983c0-fd0e-11dc-95ff-0800200c9a66} application={aa3c5121-dab2-40e2-81ca-7ea25febc110} application={55aba3ac-94d3-41a8-9e25-5c21fe874539}

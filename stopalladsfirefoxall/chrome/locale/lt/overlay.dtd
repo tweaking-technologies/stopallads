@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Ne">
+<!ENTITY sync.label "Adblo&amp;ck Plus Sync nustatymai">
+<!ENTITY whitelist.site.label "Išjungti ?1?">
+<!ENTITY notification.closing.button.hide "Uždaryti šį p&amp;ranešimą">
+<!ENTITY filters.label "&amp;Filtrų nustatymai">
+<!ENTITY disable.label "Išjungti visur">
+<!ENTITY objecttab.title "Blokuoti">
+<!ENTITY objecttab.tooltip "Spragtelėkite čia norėdami užblokuoti šį objektą su „Stop All Ads“">
+<!ENTITY menuitem.label "„&amp;Stop All Ads“ nustatymai">
+<!ENTITY objecttabs.label "Rodyti korteles &amp;Flash ir Java elementams">
+<!ENTITY sendReport.label "P&amp;ranešti apie problemą šiame puslapyje">
+<!ENTITY whitelist.page.label "Išjungti šiam tinklalapiui">
+<!ENTITY context.image.label "„Stop All Ads“: Blokuoti paveikslėlį">
+<!ENTITY notification.button.yes "&amp;Taip">
+<!ENTITY opensidebar.label "Atverti &amp;blokuojamus elementus">
+<!ENTITY notification.button.close "&amp;Uždaryti">
+<!ENTITY shownotifications.label "Rodyti naudingus &amp;pranešimus">
+<!ENTITY contribute.label "Prisidėti prie Stop All Ads">
+<!ENTITY toolbarbutton.label "„Stop All Ads“">
+<!ENTITY context.frame.label "„Stop All Ads“: Blokuoti kadrą">
+<!ENTITY blocked.tooltip "Šiame tinklalapyje užblokuoti elementai:">
+<!ENTITY notification.closing.button.optout "&amp;Neberodyti pranešimų">
+<!ENTITY counthits.label "Sus&amp;kaičiuoti filtro blokavimus">
+<!ENTITY showinstatusbar.label "Rodyti &amp;būsenos juostoje">
+<!ENTITY sidebar.title "Blokuojami elementai dabartiniame tinklalapyje">
+<!ENTITY options.label "&amp;Pasirinktys">
+<!ENTITY context.object.label "„Stop All Ads“: Blokuoti objektą">
+<!ENTITY context.removeWhitelist.label "„Stop All Ads“: iš naujo įjungti šiame puslapyje">
+<!ENTITY filters.tooltip "Aktyviausi filtrai:">
+<!ENTITY closesidebar.label "Užverti &amp;blokuojamus elementus">
+<!ENTITY showintoolbar.label "&amp;Rodyti priemonių juostoje">
+<!ENTITY status.tooltip "Būsena:">
+<!ENTITY context.media.label "„Stop All Ads“: Blokuoti audio/video">

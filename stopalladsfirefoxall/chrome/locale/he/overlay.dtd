@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;לא">
+<!ENTITY sync.label "&amp;סנכרון הגדרות Stop All Ads">
+<!ENTITY whitelist.site.label "נטרול ב-?1?">
+<!ENTITY notification.closing.button.hide "סגירת התראה זו">
+<!ENTITY filters.label "&amp;העדפות סינון">
+<!ENTITY disable.label "נטרול בכל מקום">
+<!ENTITY objecttab.title "חסימה">
+<!ENTITY objecttab.tooltip "לחיצה כאן לחסימת פריט זה עם Stop All Ads">
+<!ENTITY menuitem.label "&amp;העדפות Stop All Ads">
+<!ENTITY objecttabs.label "הצגת &amp;לשוניות על פלאש וג'אווה">
+<!ENTITY sendReport.label "&amp;דיווח על בעיה בעמוד זה">
+<!ENTITY whitelist.page.label "נטרול בעמוד הזה בלבד">
+<!ENTITY context.image.label "Stop All Ads: חסימת תמונה">
+<!ENTITY notification.button.yes "&amp;כן">
+<!ENTITY opensidebar.label "&amp;פתיחת רשימת הפריטים לחסימה">
+<!ENTITY notification.button.close "&amp;סגירה">
+<!ENTITY shownotifications.label "הצגת התראות שימושיות">
+<!ENTITY contribute.label "תרום ל-Stop All Ads">
+<!ENTITY toolbarbutton.label "Stop All Ads">
+<!ENTITY context.frame.label "Stop All Ads: חסימת מסגרת (פריים)">
+<!ENTITY blocked.tooltip "פריטים חסומים בעמוד זה:">
+<!ENTITY notification.closing.button.optout "הפסקת הצגת התראות">
+<!ENTITY counthits.label "מנה &amp;לחיצות מסנן">
+<!ENTITY showinstatusbar.label "&amp;הצגה בשורת המצב">
+<!ENTITY sidebar.title "פריטים לחסימה בעמוד הנוכחי">
+<!ENTITY options.label "&amp;אפשרויות">
+<!ENTITY context.object.label "Stop All Ads: חסימת פריט">
+<!ENTITY context.removeWhitelist.label "Stop All Ads: מאפשר מחדש בעמוד זה">
+<!ENTITY filters.tooltip "המסננים הפעילים ביותר:">
+<!ENTITY closesidebar.label "&amp;סגירת הרשימה של הפריטים לחסימה">
+<!ENTITY showintoolbar.label "&amp;הצגה בסרגל הכלים">
+<!ENTITY status.tooltip "מצב:">
+<!ENTITY context.media.label "Stop All Ads: חסימת ווידאו/אודיו">

@@ -1,0 +1,261 @@
+/*
+
+* This file is part of Stop All Ads <http://www.stopallads.com/>,
+* Copyright (C) 2016 Tweaking Techonologies
+
+* Stop All Ads is a fork of the Adblock Plus version 2.7.3 extension for 
+* blocking advertisements on the web. 
+* This fork will provide the same features as Adblock Plus
+
+* Stop All Ads is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with Stop All Ads.  If not, see <http://www.gnu.org/licenses/>.
+
+
+Originally Contributed by:
+ * This file is part of Adblock Plus <https://stopallads.org/>,
+ * Copyright (C) 2006-2016 Eyeo GmbH
+ *
+ * Adblock Plus is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * Adblock Plus is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+#saa-status
+{
+  cursor: pointer;
+}
+
+toolbar[iconsize="small"] #saa-toolbarbutton,
+#PersonalToolbar #saa-toolbarbutton,
+#header-view-toolbar > #saa-toolbarbutton,
+#saa-status {
+  list-style-image: url("abp-status-16.png");
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
+}
+toolbar[iconsize="small"] #saa-toolbarbutton[saastate="disabled"],
+#PersonalToolbar #saa-toolbarbutton[saastate="disabled"],
+#header-view-toolbar > #saa-toolbarbutton[saastate="disabled"],
+#saa-status[saastate="disabled"],
+toolbar[iconsize="small"] #saa-toolbarbutton[saastate="whitelisted"],
+#PersonalToolbar #saa-toolbarbutton[saastate="whitelisted"],
+#header-view-toolbar > #saa-toolbarbutton[saastate="whitelisted"],
+#saa-status[saastate="whitelisted"] {
+  -moz-image-region: rect(16px, 16px, 32px, 0px);
+}
+
+#saa-toolbarbutton[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #saa-toolbarbutton
+{
+  list-style-image: url("abp-status-32.png");
+  -moz-image-region: rect(0px, 32px, 32px, 0px);
+}
+
+#saa-toolbarbutton[cui-areatype="menu-panel"][saastate="disabled"],
+toolbarpaletteitem[place="palette"] > #saa-toolbarbutton[saastate="disabled"],
+#saa-toolbarbutton[cui-areatype="menu-panel"][saastate="whitelisted"],
+toolbarpaletteitem[place="palette"] > #saa-toolbarbutton[saastate="whitelisted"]
+{
+  -moz-image-region: rect(32px, 32px, 64px, 0px);
+}
+
+#saa-toolbar-popup {
+  list-style-image: none;
+  -moz-image-region: rect(0px, 0px, 0px, 0px);
+}
+
+toolbox[vertical="true"] toolbar #saa-toolbarbutton dropmarker {
+  display: none !important;
+}
+
+menuitem[default="true"] {
+  font-weight: bold;
+}
+
+#saa-toolbarbutton,
+#saa-site-info {
+  list-style-image: url("abp-status.png");
+  -moz-image-region: rect(0px, 24px, 24px, 0px);
+}
+#saa-toolbarbutton[saastate="disabled"],
+#saa-toolbarbutton[saastate="whitelisted"],
+#saa-site-info[abpaction="enable"],
+#saa-site-info[abpaction="enable_site"] {
+  -moz-image-region: rect(24px, 24px, 48px, 0px);
+}
+
+/* Hack: force the label to be displayed below icon for type="menu" */
+#saa-toolbarbutton[type="menu"]:not([cui-areatype="menu-panel"])
+{
+  -moz-box-orient: horizontal;
+}
+toolbar[mode="full"] #saa-toolbarbutton[type="menu"]
+{
+  -moz-binding: url("chrome://global/content/bindings/toolbarbutton.xml#menu-vertical");
+}
+
+/* Thunderbird-specific toolbar icon styles */
+#header-view-toolbar > #saa-toolbarbutton
+{
+  -moz-appearance: dualbutton;
+  padding: 0px !important;
+}
+
+/* Hide toolbar icon text in Thunderbird to save space */
+#header-view-toolbar > #saa-toolbarbutton .toolbarbutton-text
+{
+  display: none;
+}
+
+/* SeaMonkey expects the icon to be rather large, add margin */
+#mail-toolbox #saa-toolbarbutton .toolbarbutton-icon
+{
+  margin-top: 5px;
+}
+
+#saa-status-image {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#saa-site-info .pageaction-image {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+#saa-toolbarbutton > toolbarbutton {
+  /* Argh, Songbird defines image region directly on the anonymous toolbarbutton element */
+  -moz-image-region: inherit !important;
+}
+
+#saa-tooltip {
+  max-width: none;
+}
+
+#saa-tooltip label {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#saa-tooltip description:not([hidden="true"])+label {
+  margin-top: 10px;
+}
+
+#saa-bottombar-title {
+  padding-left: 4px;
+}
+
+#saa-bottombar-toolbar {
+    display: -moz-box !important;
+    visibility: visible !important;
+}
+
+#saa-bottombar-close,
+#saa-notification-close
+{
+  padding: 4px 2px;
+  border-style: none !important;
+  -moz-user-focus: normal;
+  list-style-image: url("close.png");
+  -moz-appearance: none;
+  -moz-image-region: rect(0px, 14px, 14px, 0px);
+}
+
+#saa-bottombar-close:hover,
+#saa-notification-close:hover
+{
+  -moz-image-region: rect(0px, 28px, 14px, 14px);
+}
+
+#saa-bottombar-close:hover:active,
+#saa-notification-close:hover:active
+{
+  -moz-image-region: rect(0px, 42px, 14px, 28px);
+}
+
+.saa-contributebutton
+{
+  margin-top: 20px;
+}
+
+.saa-contributebutton-btn
+{
+  font: -moz-info;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.saa-contributebutton-close
+{
+  border-style: none !important;
+  -moz-user-focus: normal;
+  list-style-image: url("close.png");
+  -moz-appearance: none;
+  -moz-image-region: rect(0px, 14px, 14px, 0px);
+
+  /* Firefox Australis theme defines some width for all toolbaritem tags inside
+   * UIPanel element, the properties have to be reset to default values. */
+  min-width: 0px !important;
+  min-height: 0px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.saa-contributebutton-close:hover
+{
+  -moz-image-region: rect(0px, 28px, 14px, 14px);
+}
+
+#saa-notification
+{
+  width: 300px;
+}
+
+#saa-notification-question
+{
+  display: none;
+  white-space: nowrap;
+}
+
+.saa-question #saa-notification-question
+{
+  display: block;
+}
+
+#saa-notification html|a
+{
+  cursor: pointer;
+  color: #0000f0;
+}
+
+#saa-notification html|a:hover
+{
+  text-decoration: underline;
+}
+
+#saa-notification.saa-closing #saa-notification-content,
+#saa-notification:not(.saa-closing) #saa-notification-close-content
+{
+  display: none;
+}
+
+#saa-notification-close-content toolbarbutton label
+{
+  text-align: left;
+}

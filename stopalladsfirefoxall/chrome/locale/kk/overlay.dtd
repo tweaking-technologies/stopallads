@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Жоқ">
+<!ENTITY sync.label "Stop All Ads баптауларын Sync і&amp;шіне қосу">
+<!ENTITY whitelist.site.label "Келесі үшін сөндіру: ?1?">
+<!ENTITY notification.closing.button.hide "Бұ&amp;л хабарламаны жабу">
+<!ENTITY filters.label "Фильт&amp;р баптаулары">
+<!ENTITY disable.label "Әр жерде сөндіру">
+<!ENTITY objecttab.title "Блоктау">
+<!ENTITY objecttab.tooltip "Stop All Ads көмегімен осы объектті блоктау үшін шертіңіз">
+<!ENTITY menuitem.label "Stop All Ads ба&amp;птаулары">
+<!ENTITY objecttabs.label "Flash пен Java-ға сілтеме қал&amp;дыру">
+<!ENTITY sendReport.label "Бұл парақтағы мәселе туралы &amp;хабарлау">
+<!ENTITY whitelist.page.label "Тек осы парақ үшін сөндіру">
+<!ENTITY context.image.label "Stop All Ads: Суретті блоктау">
+<!ENTITY notification.button.yes "&amp;Иә">
+<!ENTITY opensidebar.label "Блокталған құраманы аш&amp;у">
+<!ENTITY notification.button.close "Ж&amp;абу">
+<!ENTITY shownotifications.label "&amp;Пайдалы хабарламаларды көрсету">
+<!ENTITY contribute.label "Stop All Ads-қа үлес қосу">
+<!ENTITY toolbarbutton.label "Stop All Ads">
+<!ENTITY context.frame.label "Stop All Ads: Фреймді блоктау">
+<!ENTITY blocked.tooltip "Бұл парақтағы блокталған құрама:">
+<!ENTITY notification.closing.button.optout "Хабарламаларды көрсетуді тоқ&amp;тату">
+<!ENTITY counthits.label "Ф&amp;ильтрлер хиттерін санау">
+<!ENTITY showinstatusbar.label "Қалып-&amp;күй жолағында көрсету">
+<!ENTITY sidebar.title "Ағымдағы парақ құрамасы">
+<!ENTITY options.label "&amp;Баптаулар">
+<!ENTITY context.object.label "Stop All Ads: Объектті блоктау">
+<!ENTITY context.removeWhitelist.label "Stop All Ads: Осы парақта қайта қосу">
+<!ENTITY filters.tooltip "Көп қолданылатын фильтрлер:">
+<!ENTITY closesidebar.label "Блокталған құраманы жаб&amp;у">
+<!ENTITY showintoolbar.label "&amp;Панельде көрсету">
+<!ENTITY status.tooltip "Күйі:">
+<!ENTITY context.media.label "Stop All Ads: Аудио/Видеоны блоктау">

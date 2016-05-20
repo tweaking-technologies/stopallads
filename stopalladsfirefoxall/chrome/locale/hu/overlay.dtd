@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Nem">
+<!ENTITY sync.label "Stop All Ads beállítások s&amp;zinkronizálása">
+<!ENTITY whitelist.site.label "Szűrés tiltása itt: ?1?">
+<!ENTITY notification.closing.button.hide "Értesítés bezárása">
+<!ENTITY filters.label "Szűrő &amp;beállítások">
+<!ENTITY disable.label "Letiltás mindenhol">
+<!ENTITY objecttab.title "Blokkolás">
+<!ENTITY objecttab.tooltip "Kattintson ide a blokkoláshoz (Stop All Ads)">
+<!ENTITY menuitem.label "Ad&amp;block Plus beállítások">
+<!ENTITY objecttabs.label "&amp;Fülek megjelenítése Java és Flash objektumoknál">
+<!ENTITY sendReport.label "Hibás webhel&amp;y bejelentése">
+<!ENTITY whitelist.page.label "Szűrés tiltása csak ezen az aloldalon">
+<!ENTITY context.image.label "Kép blokkolása">
+<!ENTITY notification.button.yes "&amp;Igen">
+<!ENTITY opensidebar.label "Blokkolható ob&amp;jektumok megjelenítése">
+<!ENTITY notification.button.close "&amp;Bezárás">
+<!ENTITY shownotifications.label "Hasznos értesítések megjelenítése">
+<!ENTITY contribute.label "Közreműködés az Stop All Ads-hoz">
+<!ENTITY toolbarbutton.label "Stop All Ads">
+<!ENTITY context.frame.label "Keret blokkolása">
+<!ENTITY blocked.tooltip "Blokkolt objektumok ezen az oldalon:">
+<!ENTITY notification.closing.button.optout "Ne jelenjenek meg értesítések">
+<!ENTITY counthits.label "&amp;Szűrő találati statisztika mentése">
+<!ENTITY showinstatusbar.label "Megje&amp;lenítés az állapotsoron">
+<!ENTITY sidebar.title "Blokkolható objektumok">
+<!ENTITY options.label "&amp;Opciók">
+<!ENTITY context.object.label "Objektum blokkolása">
+<!ENTITY context.removeWhitelist.label "Stop All Ads: Újra-engedélyezés ezen az oldalon">
+<!ENTITY filters.tooltip "Legaktívabb szűrők:">
+<!ENTITY closesidebar.label "Blokkolható ob&amp;jektumok elrejtése">
+<!ENTITY showintoolbar.label "M&amp;egjelenítés az eszköztáron">
+<!ENTITY status.tooltip "Állapot:">
+<!ENTITY context.media.label "Stop All Ads: videó/audió blokkolása">

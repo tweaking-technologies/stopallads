@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+
+<!--
+
+* This file is part of Stop All Ads <http://www.stopallads.com/>,
+* Copyright (C) 2016 Tweaking Techonologies
+
+* Stop All Ads is a fork of the Adblock Plus version 2.7.3 extension for 
+* blocking advertisements on the web. 
+* This fork will provide the same features as Adblock Plus
+
+* Stop All Ads is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with Stop All Ads.  If not, see <http://www.gnu.org/licenses/>.
+
+
+Originally Contributed by:
+  - This file is part of Adblock Plus <https://stopallads.org/>,
+  - Copyright (C) 2006-2016 Eyeo GmbH
+  -
+  - Adblock Plus is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - Adblock Plus is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<!DOCTYPE overlay [
+  <!ENTITY % overlayDTD SYSTEM "chrome://stopallads/locale/overlay.dtd">
+  %overlayDTD;
+  <!ENTITY % subscriptionsDTD SYSTEM "chrome://stopallads/locale/subscriptionSelection.dtd">
+  %subscriptionsDTD;
+]>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    imagecontextlabel="&context.image.label;…" objectcontextlabel="&context.object.label;…"
+    mediacontextlabel="&context.media.label;…" subdocumentcontextlabel="&context.frame.label;…"
+    whitelistcontextlabel="&context.removeWhitelist.label;"
+    objtabtext="&objecttab.title;…" objtabtooltip="&objecttab.tooltip;"
+    subscriptionDialogTitle="&dialog.title;"
+    subscriptionDialogMessage="&title.label; ?1?&#10;&#10;&location.label; ?2?">
+  <popupset id="saa-popupset">
+    <!-- Icon's tooltip -->
+    <tooltip id="saa-tooltip" orient="vertical">
+      <description id="saa-tooltip-action" hidden="true"/>
+      <label id="saa-tooltip-status-label" value="&status.tooltip;"/>
+      <description id="saa-tooltip-status"/>
+      <label id="saa-tooltip-blocked-label" value="&blocked.tooltip;" hidden="true"/>
+      <description id="saa-tooltip-blocked" hidden="true"/>
+      <label id="saa-tooltip-filters-label" value="&filters.tooltip;" hidden="true"/>
+      <vbox id="saa-tooltip-filters" hidden="true"/>
+      <description id="saa-tooltip-more-filters" value="…" hidden="true"/>
+    </tooltip>
+  </popupset>
+
+  <!-- Icon's context menu -->
+  <menupopup id="saa-status-popup" context="">
+    <menuitem id="saa-status-sendReport" label="&sendReport.label;…" key="saa-key-sendReport" command="saa-command-sendReport"/>
+    <menuitem id="saa-status-openbottombar" label="&opensidebar.label;" key="saa-key-sidebar" command="saa-command-sidebar"/>
+    <menuitem id="saa-status-closebottombar" label="&closesidebar.label;" key="saa-key-sidebar" command="saa-command-sidebar"/>
+    <menuitem id="saa-status-filters" label="&filters.label;…" key="saa-key-filters" command="saa-command-filters"/>
+    <menuseparator id="saa-status-whitelist-sep"/>
+    <menuitem id="saa-status-whitelistsite" labeltempl="&whitelist.site.label;" type="checkbox" command="saa-command-togglesitewhitelist"/>
+    <menuitem id="saa-status-whitelistpage" label="&whitelist.page.label;" type="checkbox" command="saa-command-togglepagewhitelist"/>
+    <menuitem id="saa-status-disabled" label="&disable.label;" type="checkbox" key="saa-key-enable" command="saa-command-enable"/>
+    <menuseparator/>
+    <menu id="saa-status-options" label="&options.label;">
+      <menupopup id="saa-status-options-popup">
+        <menuitem id="saa-status-frameobjects" label="&objecttabs.label;" type="checkbox" command="saa-command-toggleobjtabs"/>
+        <menuitem id="saa-status-savestats" label="&counthits.label;" type="checkbox" command="saa-command-togglesavestats"/>
+        <menuitem id="saa-status-sync" label="&sync.label;" type="checkbox" command="saa-command-togglesync"/>
+        <menuitem id="saa-status-shownotifications" label="&shownotifications.label;" type="checkbox" command="saa-command-toggleshownotifications"/>
+        <menuseparator id="saa-status-iconSettingsSeparator"/>
+        <menuitem id="saa-status-showintoolbar" label="&showintoolbar.label;" type="checkbox" command="saa-command-toggleshowintoolbar"/>
+        <menuitem id="saa-status-showinstatusbar" label="&showinstatusbar.label;" type="checkbox" command="saa-command-toggleshowinstatusbar"/>
+      </menupopup>
+    </menu>
+
+    <!--<hbox class="saa-contributebutton" id="saa-status-contributebutton" pack="center" align="center">
+       noautoclose attribute tells Australis menu that it shouldn't close when
+           these are clicked, see https://bugzilla.mozilla.org/show_bug.cgi?id=940693 
+      <button class="saa-contributebutton-btn" label="&contribute.label;" command="saa-command-contribute" flex="1" noautoclose="true"/>
+      <toolbarbutton class="saa-contributebutton-close" command="saa-command-contribute-hide" noautoclose="true"/>
+    </hbox>-->
+  </menupopup>
+
+  <keyset id="saa-keyset"/>
+
+  <!-- Dummy oncommand attributes are work-arounds for bug 371900 -->
+  <commandset id="saa-commandset">
+    <command id="saa-command-sendReport" oncommand="//"/>
+    <command id="saa-command-filters" oncommand="//"/>
+    <command id="saa-command-settings" oncommand="//"/>
+    <command id="saa-command-sidebar" oncommand="//"/>
+    <command id="saa-command-togglesitewhitelist"/>
+    <command id="saa-command-togglepagewhitelist"/>
+    <command id="saa-command-toggleobjtabs"/>
+    <command id="saa-command-togglesavestats"/>
+    <command id="saa-command-togglesync"/>
+    <command id="saa-command-toggleshowintoolbar"/>
+    <command id="saa-command-toggleshowinstatusbar"/>
+    <command id="saa-command-enable" oncommand="//"/>
+    <!--<command id="saa-command-contribute"/>
+    <command id="saa-command-contribute-hide"/>-->
+    <command id="saa-command-toggleshownotifications"/>
+  </commandset>
+
+  <statusbarpanel id="saa-status" class="statusbarpanel-iconic"
+      tooltip="saa-tooltip"/>
+
+  <toolbarbutton id="saa-toolbarbutton" class="toolbarbutton-1" label="&toolbarbutton.label;"
+      tooltip="saa-tooltip"/>
+
+  <!-- Tools menu -->
+  <menu id="saa-menuitem" label="&toolbarbutton.label;"/>
+
+  <!-- Bottom bar -->
+  <hbox id="saa-bottombar-container">
+    <splitter id="saa-bottombar-splitter"/>
+    <vbox id="saa-bottombar">
+      <toolbox id="saa-bottombar-header">
+        <toolbar id="saa-bottombar-toolbar" align="center" grippyhidden="true" fullscreentoolbar="true">
+          <label id="saa-bottombar-title" control="saa-bottombar-browser" value="&sidebar.title;" flex="1" crop="end"/>
+          <toolbarbutton id="saa-bottombar-close" command="saa-command-sidebar" tooltiptext="&closesidebar.label;"/>
+        </toolbar>
+      </toolbox>
+      <iframe id="saa-bottombar-browser" src="chrome://stopallads/content/ui/sidebar.xul" flex="1"/>
+    </vbox>
+  </hbox>
+
+  <!-- Notification panel -->
+  <panel id="saa-notification" type="arrow" orient="vertical"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <vbox id="saa-notification-content">
+      <toolbar align="start">
+        <label id="saa-notification-title" class="header" flex="1" crop="end"/>
+        <toolbarbutton id="saa-notification-close" tooltiptext="&notification.button.close;"/>
+      </toolbar>
+      <html:p id="saa-notification-message"/>
+      <hbox id="saa-notification-question">
+        <button id="saa-notification-yes" label="&notification.button.yes;"/>
+        <button id="saa-notification-no" label="&notification.button.no;"/>
+      </hbox>
+    </vbox>
+    <vbox id="saa-notification-close-content">
+      <toolbarbutton id="saa-notification-hide" label="&notification.closing.button.hide;"/>
+      <toolbarbutton id="saa-notification-optout" label="&notification.closing.button.optout;"/>
+    </vbox>
+  </panel>
+</overlay>

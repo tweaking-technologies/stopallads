@@ -1,0 +1,5 @@
+_root = hg:https://hg.stopallads.org/ git:https://github.com/stopallads/
+_self = buildtools/ensure_dependencies.py
+buildtools = buildtools hg:3816c08c0f98 git:93e54d4
+stopalladscore = stopalladscore hg:3f1bdb2a4fd4 git:e929b89
+stopalladsui = stopalladsui hg:eaf7a04285fa git:d6484f7
