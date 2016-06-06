@@ -1,0 +1,13 @@
+[general]
+id=adblockplustests@adblockplus.org
+basename=adblockplustests
+version=1.0.1a
+author=Wladimir Palant
+options=chrome://stopalladstests/content/settings.xul
+optionsType=2
+
+[homepage]
+default=http://adblockplus.org/en/source
+
+[compat]
+toolkit=38.0/46.0

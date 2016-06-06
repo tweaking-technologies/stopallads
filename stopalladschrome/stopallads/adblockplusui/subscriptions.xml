@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+
+<!--
+#* This file is part of StopAll Ads <http://www.stopallads.com/>,
+#* Copyright (C) 2016 Tweaking Techonologies
+
+#* StopAll Ads is a fork of the Adblock Plus extension for 
+#* blocking advertisements on the web. 
+#* This fork will provide the same features as Adblock Plus
+
+#* StopAll Ads is distributed in the hope that it will be useful,
+#* but WITHOUT ANY WARRANTY; without even the implied warranty of
+#* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#* GNU General Public License for more details.
+#*
+#* You should have received a copy of the GNU General Public License
+#* along with StopAll Ads.  If not, see <http://www.gnu.org/licenses/>.
+
+
+#Originally Contributed by:
+ #* This file is part of Adblock Plus <https://adblockplus.org/>,
+ #* Copyright (C) 2006-2016 Eyeo GmbH
+ #*
+ #* Adblock Plus is free software: you can redistribute it and/or modify
+ #* it under the terms of the GNU General Public License version 3 as
+ #* published by the Free Software Foundation.
+ #*
+ #* Adblock Plus is distributed in the hope that it will be useful,
+ #* but WITHOUT ANY WARRANTY; without even the implied warranty of
+ #* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ #* GNU General Public License for more details.
+ #*
+ #* You should have received a copy of the GNU General Public License
+ #* along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<subscriptions>
+  <subscription title="EasyList"
+                specialization="English"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylist.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="en"
+                author="fanboy, MonztA, Famlam, Khrin"/>
+  <subscription title="ABPindo+EasyList"
+                specialization="Bahasa Indonesia"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/abpindo_easylist.txt"
+                homepage="http://abpindo.blogspot.com/"
+                prefixes="id"
+                author="heradhis"/>
+  <subscription title="Bulgarian list+EasyList"
+                specialization="български"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/bulgarian_list_easylist.txt"
+                homepage="http://stanev.org/abp/"
+                prefixes="bg"
+                author="Александър Станев"/>
+  <subscription title="EasyList China+EasyList"
+                specialization="中文"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylistchina_easylist.txt"
+                homepage="http://abpchina.org/forum/"
+                prefixes="zh"
+                author="John, Li, Jiefei"/>
+  <subscription title="EasyList Czech and Slovak+EasyList"
+                specialization="čeština, slovenčina"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylistczechslovak_easylist.txt"
+                homepage="http://adblock.sk/"
+                prefixes="cs,sk"
+                author="tomasko126"/>
+  <subscription title="EasyList Dutch+EasyList"
+                specialization="Nederlands"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylistdutch_easylist.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="nl"
+                author="Famlam"/>
+  <subscription title="EasyList Germany+EasyList"
+                specialization="Deutsch"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylistgermany_easylist.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="de"
+                author="MonztA, Famlam"/>
+  <subscription title="EasyList Hebrew+EasyList"
+                specialization="עברית"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/israellist_easylist.txt"
+                homepage="https://github.com/AdBlockPlusIsrael/EasyListHebrew"
+                prefixes="he"
+                author="BsT"/>
+  <subscription title="EasyList Italy+EasyList"
+                specialization="italiano"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylistitaly_easylist.txt"
+                homepage="https://easylist.adblockplus.org/"
+                prefixes="it"
+                author="Khrin"/>
+  <subscription title="EasyList Lithuania+EasyList"
+                specialization="lietuvių kalba"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easylistlithuania_easylist.txt"
+                homepage="http://margevicius.lt/"
+                prefixes="lt"
+                author="Algimantas Margevičius"/>
+  <subscription title="Latvian List+EasyList"
+                specialization="latviešu valoda"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/latvianlist_easylist.txt"
+                homepage="http://latvian-list.site11.com/"
+                prefixes="lv"
+                author="anonymous74100"/>
+  <subscription title="Liste AR+Liste FR+EasyList"
+                specialization="العربية"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/liste_ar_liste_fr_easylist.txt"
+                homepage="https://code.google.com/p/liste-ar-adblock/"
+                prefixes="ar"
+                author="smed79"/>
+  <subscription title="Liste FR+EasyList"
+                specialization="français"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/liste_fr_easylist.txt"
+                homepage="http://adblock-listefr.com/"
+                prefixes="fr"
+                author="Lian, Crits, smed79"/>
+  <subscription title="ROList+EasyList"
+                specialization="românesc"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/rolist_easylist.txt"
+                homepage="http://www.zoso.ro/rolist"
+                prefixes="ro"
+                author="MenetZ, Zoso"/>
+  <subscription title="RuAdList+EasyList"
+                specialization="русский, українська"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/ruadlist_easylist.txt"
+                homepage="https://code.google.com/p/ruadlist/"
+                prefixes="ru,uk"
+                author="Lain_13"/>
+  <subscription title="EasyPrivacy"
+                specialization="Disable Tracking"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/easyprivacy.txt"
+                homepage="https://easylist.adblockplus.org/"/>
+  <subscription title="malware"
+                specialization="Disable Malware Websites"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/malwaredomains_full.txt"
+                homepage="http://malwaredomains.com/?page_id=2"/>
+  <subscription title="fanboy"
+                specialization="Disable Social media buttons"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/fanboy-social.txt"
+                homepage="https://easylist.adblockplus.org/"/>
+  <subscription title="facebook annoyances blocker"
+                specialization="Facebook annoyance"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/fb_annoyances_full.txt"
+                homepage="http://facebook.adblockplus.me/"/>
+  <subscription title="Pure Video Experience"
+                specialization="Youtube annoyance"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/yt_annoyances_full.txt"
+                homepage="http://youtube.adblockplus.me/"/>
+  <subscription title="Prebake - Filter Obtrusive Cookie Notices"
+                specialization="Prebake"
+                url="http://stopallads.s3.amazonaws.com/subscriptions/obtrusive.txt"
+                homepage="http://liamja.github.io/Prebake/"/>
+  <subscription title="Spam404"
+                specialization="Spam404"
+                url="https://spam404bl.com/spam404scamlist.txt"
+                homepage="http://www.spam404.com/"/>
+</subscriptions>

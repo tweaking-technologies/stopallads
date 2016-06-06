@@ -1,0 +1,7 @@
+{
+  "license" : "GPL-3.0",
+  "repository": { },
+  "dependencies": {
+    "tldjs": "*"
+  }
+}

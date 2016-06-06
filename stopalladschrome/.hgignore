@@ -1,0 +1,9 @@
+^devenv.*$
+
+syntax:glob
+*.zip
+*.crx
+*.safariextz
+*.pyc
+*.pyo
+*.sh

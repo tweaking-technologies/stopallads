@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="qunit.css"/>
+    <script src="jquery-1.7.1.min.js"></script>
+    <script src="qunit.js"></script>
+    <script src="common.js" type="text/javascript;version=1.7"></script>
+    <script src="httpd.js" type="text/javascript;version=1.7"></script>
+    <script type="text/javascript;version=1.7">
+      Cu.import("resource://gre/modules/Services.jsm");
+
+      function getTestFiles()
+      {
+        function require(module)
+        {
+          let result = {};
+          result.wrappedJSObject = result;
+          Services.obs.notifyObservers(result, "adblockplustests-require", module);
+          return result.exports;
+        }
+
+        let result;
+        if ("test" in QUnit.urlParams)
+          result = ["tests/" + QUnit.urlParams.test + ".js"];
+        else
+        {
+          let {getTests} = require("main");
+          result = ["tests/" + test + ".js" for (test of getTests())];
+        }
+
+        result.sort();
+        return result;
+      }
+
+      let files = getTestFiles();
+      for (let file of files)
+      {
+        let script = document.createElement("script");
+        script.setAttribute("src", file);
+        script.setAttribute("type", "text/javascript;version=1.7");
+        document.documentElement.appendChild(script);
+      }
+
+      window.addEventListener("unload", function()
+      {
+        if (QUnit.config.current)
+          for (let callback of QUnit.config.current.hooks("afterEach").reverse())
+            callback();
+      }, false);
+    </script>
+  </head>
+  <body>
+    <h1 id="qunit-header">StopAll Ads unit tests</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+  </body>
+</html>
