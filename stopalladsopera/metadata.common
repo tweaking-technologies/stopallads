@@ -1,0 +1,206 @@
+[general]
+version = 1.0.91
+backgroundScripts = lib/polyfills/url.js
+  lib/polyfills/promise.js
+  lib/polyfills/fetch.js
+  ext/common.js
+  ext/background.js
+  ext/jquery.min.js
+  lib/compat.js
+  lib/info.js
+  lib/publicSuffixList.js
+  lib/adblockplus.js
+  lib/sha1.js
+  lib/jsbn.js
+  lib/rsa.js
+  messageResponder.js
+  background.js
+testScripts = ../ext/common.js
+  ../ext/background.js
+  ../lib/compat.js
+  ../lib/info.js
+  ../lib/adblockplus.js
+  ../lib/publicSuffixList.js
+  ../lib/sha1.js
+  ../lib/jsbn.js
+  ../lib/rsa.js
+  common.js
+  tests/adblockplus.js
+  tests/versionComparator.js
+  tests/url.js
+  tests/signatures.js
+  tests/cssEscaping.js
+permissions = http://*/* https://*/*
+
+[contentScripts]
+document_start = ext/common.js ext/content.js cssProperties.js include.preload.js ext/jquery.min.js
+document_end = include.postload.js
+
+[mapping]
+after-install.html = stopalladsui/after-install.html
+skin/bootstrap.min.css = stopalladsui/skin/css/bootstrap.min.css
+skin/style.css = stopalladsui/skin/css/style.css
+skin/responsive.css = stopalladsui/skin/css/responsive.css
+skin/animate.min.css = stopalladsui/skin/css/animate.min.css
+skin/bootstrap.css = stopalladsui/skin/css/bootstrap.css
+skin/big-logo.png = stopalladsui/skin/images/big-logo.png
+skin/dis-malware-icon.png = stopalladsui/skin/images/dis-malware-icon.png
+skin/button-off-icon.png = stopalladsui/skin/images/button-off-icon.png
+skin/dis-social-icon.png = stopalladsui/skin/images/dis-social-icon.png
+skin/blue-bg.jpg = stopalladsui/skin/images/blue-bg.jpg
+skin/feature-banner.jpg = stopalladsui/skin/images/feature-banner.jpg
+skin/brown-bg.jpg = stopalladsui/skin/images/brown-bg.jpg
+skin/ok-icon.png = stopalladsui/skin/images/ok-icon.png
+skin/sprite.png = stopalladsui/skin/images/sprite.png
+skin/button-on-icon.png = stopalladsui/skin/images/button-on-icon.png
+skin/dis-tracking-icon.png = stopalladsui/skin/images/dis-tracking-icon.png
+
+skin/setting-icon.png = stopalladsui/skin/images/setting-icon.png
+skin/right-icon.png = stopalladsui/skin/images/right-icon.png
+skin/down-arrow-icon.png = stopalladsui/skin/images/down-arrow-icon.png
+skin/grow-icon.png = stopalladsui/skin/images/grow-icon.png
+skin/element-icon.png = stopalladsui/skin/images/element-icon.png
+skin/cancle-icon.png = stopalladsui/skin/images/cancle-icon.png
+skin/logo-icon.png = stopalladsui/skin/images/logo-icon.png
+
+
+ext/m.js = stopalladsui/ext/m.js
+ext/analytics.js = stopalladsui/ext/analytics.js
+ext/jquery.min.js = stopalladsui/ext/jquery.min.js
+ext/bootstrap.min.js = stopalladsui/ext/js/bootstrap.min.js
+ext/bootstrap.js = stopalladsui/ext/js/bootstrap.js
+ext/wow.min.js = stopalladsui/ext/js/wow.min.js
+skin/fonts/montserrat-black-webfont.woff2 = stopalladsui/skin/fonts/montserrat-black-webfont.woff2
+skin/fonts/montserrat-black-webfont.woff = stopalladsui/skin/fonts/montserrat-black-webfont.woff
+skin/fonts/montserrat-bold-webfont.woff = stopalladsui/skin/fonts/montserrat-bold-webfont.woff
+skin/fonts/montserrat-bold-webfont.woff2 = stopalladsui/skin/fonts/montserrat-bold-webfont.woff2
+skin/fonts/montserrat-light-webfont.woff = stopalladsui/skin/fonts/montserrat-light-webfont.woff
+skin/fonts/montserrat-light-webfont.woff2 = stopalladsui/skin/fonts/montserrat-light-webfont.woff2
+
+skin/fonts/montserrat-regular-webfont.woff = stopalladsui/skin/fonts/montserrat-regular-webfont.woff
+skin/fonts/montserrat-regular-webfont.woff2 = stopalladsui/skin/fonts/montserrat-regular-webfont.woff2
+
+skin/fonts/SourceSansPro-Light.woff = stopalladsui/skin/fonts/SourceSansPro-Light.woff
+skin/fonts/SourceSansPro-Regular.woff = stopalladsui/skin/fonts/SourceSansPro-Regular.woff
+
+skin/fonts/opensans-bold-webfont.woff = stopalladsui/skin/fonts/opensans-bold-webfont.woff
+skin/fonts/opensans-bold-webfont.woff2 = stopalladsui/skin/fonts/opensans-bold-webfont.woff2
+skin/fonts/opensans-light-webfont.woff = stopalladsui/skin/fonts/opensans-light-webfont.woff
+skin/fonts/opensans-light-webfont.woff2 = stopalladsui/skin/fonts/opensans-light-webfont.woff2
+skin/fonts/opensans-regular-webfont.woff = stopalladsui/skin/fonts/opensans-regular-webfont.woff
+skin/fonts/opensans-regular-webfont.woff2 = stopalladsui/skin/fonts/opensans-regular-webfont.woff2
+skin/fonts/opensans-semibold-webfont.woff = stopalladsui/skin/fonts/opensans-semibold-webfont.woff
+skin/fonts/opensans-semibold-webfont.woff2 = stopalladsui/skin/fonts/opensans-semibold-webfont.woff2
+
+cssProperties.js = stopalladscore/chrome/content/cssProperties.js
+ext/content.js = chrome/ext/content.js
+ext/popup.js = chrome/ext/popup.js
+subscriptions.xml = stopalladscore/chrome/content/ui/subscriptions.xml
+common.js = stopalladsui/common.js
+firstRun.js = stopalladsui/firstRun.js
+i18n.js = stopalladsui/i18n.js
+messageResponder.js = stopalladsui/messageResponder.js
+icons/detailed/abp-128.png = stopalladsui/skin/abp-128.png
+skin/common.css = stopalladsui/skin/common.css
+skin/firstRun.css = stopalladsui/skin/firstRun.css
+skin/ajax-loader.gif = stopalladsui/skin/ajax-loader.gif
+skin/background.png = stopalladsui/skin/background.png
+skin/background-main.png = stopalladsui/skin/background-main.png
+skin/background-share.png = stopalladsui/skin/background-share.png
+skin/donate.png = stopalladsui/skin/donate.png
+skin/abb-logo.png = stopalladsui/skin/abb-logo.png
+skin/features/malware.png = stopalladsui/skin/features/malware.png
+skin/features/social.png = stopalladsui/skin/features/social.png
+skin/features/tracking.png = stopalladsui/skin/features/tracking.png
+skin/fonts/CreteRound-Italic.otf = stopalladsui/skin/fonts/CreteRound-Italic.otf
+skin/fonts/CreteRound-Regular.otf = stopalladsui/skin/fonts/CreteRound-Regular.otf
+skin/social/facebook.png = stopalladsui/skin/social/facebook.png
+skin/social/googleplus.png = stopalladsui/skin/social/googleplus.png
+skin/social/renren.png = stopalladsui/skin/social/renren.png
+skin/social/twitter.png = stopalladsui/skin/social/twitter.png
+skin/social/weibo.png = stopalladsui/skin/social/weibo.png
+qunit/qunit.js = stopalladstests/chrome/content/qunit.js
+qunit/qunit.css = stopalladstests/chrome/content/qunit.css
+
+[convert_js]
+lib/adblockplus.js = stopalladscore/lib/events.js
+  lib/prefs.js
+  lib/utils.js
+  lib/io.js
+  stopalladscore/lib/downloader.js
+  stopalladscore/lib/filterNotifier.js
+  stopalladscore/lib/filterClasses.js
+  stopalladscore/lib/subscriptionClasses.js
+  stopalladscore/lib/filterStorage.js
+  stopalladscore/lib/elemHide.js
+  stopalladscore/lib/matcher.js
+  stopalladscore/lib/cssRules.js
+  stopalladscore/lib/filterListener.js
+  stopalladscore/lib/synchronizer.js
+  stopalladscore/lib/notification.js
+  stopalladscore/lib/antiadblockInit.js
+  lib/messaging.js
+  lib/tldjs.js
+  lib/url.js
+  lib/stats.js
+  lib/devtools.js
+  lib/whitelisting.js
+  lib/filterValidation.js
+  lib/filterComposer.js
+  lib/icon.js
+  lib/notificationHelper.js
+  lib/subscriptionInit.js
+  lib/requestBlocker.js
+  lib/popupBlocker.js
+  lib/uninstall.js
+  lib/punycode.js
+  saa2blocklist/lib/abp2blocklist.js
+  safari/contentBlocking.js
+  --arg module=true source_repo=https://hg.adblockplus.org/adblockpluscore/
+ext/common.js = ext/common.js chrome/ext/common.js
+ext/background.js = ext/background.js chrome/ext/background.js --arg brace_style=expand
+include.postload.js = subscriptionLink.postload.js composer.postload.js
+
+qunit/tests/adblockplus.js = stopalladstests/chrome/content/tests/domainRestrictions.js
+  stopalladstests/chrome/content/tests/filterClasses.js
+  stopalladstests/chrome/content/tests/filterNotifier.js
+  stopalladstests/chrome/content/tests/filterStorage.js
+  stopalladstests/chrome/content/tests/matcher.js
+  stopalladstests/chrome/content/tests/prefs.js
+  stopalladstests/chrome/content/tests/regexpFilters_matching.js
+  stopalladstests/chrome/content/tests/subscriptionClasses.js
+  --arg source_repo=https://hg.adblockplus.org/adblockplustests/
+
+[import_locales]
+stopallads/chrome/locale/*/global.properties = subscription_invalid_location
+  remove_subscription_warning
+  notification_antiadblock_title
+  notification_antiadblock_message
+  filter_unknown_option
+  filter_invalid_regexp
+  filter_elemhide_duplicate_id
+  filter_elemhide_nocriteria
+  filter_cssproperty_nodomain
+stopallads/chrome/locale/*/overlay.dtd = hideplaceholders.label
+  notification.button.yes
+  notification.button.no
+  notification.closing.button.hide
+  notification.closing.button.optout
+  shownotifications.label
+stopallads/chrome/locale/*/filters.dtd = subscription.lastDownload.inProgress
+  subscription.lastDownload.invalidURL
+  subscription.lastDownload.connectionError
+  subscription.lastDownload.invalidData
+  subscription.lastDownload.checksumMismatch
+  subscription.enabled.label
+  subscription.delete.label
+  addSubscription.label
+  addSubscriptionAdd.label
+  addSubscriptionOther.label
+  acceptableAds2.label
+  viewList.label
+  readMore.label
+stopallads/chrome/locale/*/subscriptionSelection.dtd = location.label
+  title.label
+stopallads/chrome/locale/*/meta.properties = =name
+stopalladsui/locale/*/firstRun.json = =*

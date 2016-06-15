@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "No">
+<!ENTITY sync.label "Sincronizza le impostazioni di Adbloc&amp;k Plus">
+<!ENTITY whitelist.site.label "Disattiva per ?1?">
+<!ENTITY notification.closing.button.hide "Chiudi quest&amp;a notifica">
+<!ENTITY filters.label "Gestione dei &amp;filtri">
+<!ENTITY disable.label "Disattiva per tutte le pagine">
+<!ENTITY objecttab.title "Blocca">
+<!ENTITY objecttab.tooltip "Fare clic qui per bloccare l'oggetto con StopAll Ads">
+<!ENTITY menuitem.label "Gestione dei filtri di &amp;StopAll Ads">
+<!ENTITY objecttabs.label "Mos&amp;tra linguetta 'Blocca…' per elementi Flash e Java">
+<!ENTITY sendReport.label "&amp;Segnala problemi nella pagina attuale">
+<!ENTITY whitelist.page.label "Disattiva solo per la pagina attuale">
+<!ENTITY context.image.label "Blocca immagine con StopAll Ads">
+<!ENTITY notification.button.yes "Sì">
+<!ENTITY opensidebar.label "Apri l'elenco degli elementi &amp;bloccabili">
+<!ENTITY notification.button.close "Chiudi">
+<!ENTITY shownotifications.label "Visualizza notifiche utili">
+<!ENTITY contribute.label "Contribuisci ad StopAll Ads">
+<!ENTITY toolbarbutton.label "StopAll Ads">
+<!ENTITY context.frame.label "Blocca riquadro con StopAll Ads">
+<!ENTITY blocked.tooltip "Elementi attualmente bloccati">
+<!ENTITY notification.closing.button.optout "Interrompi la visualizzazione delle notifiche">
+<!ENTITY counthits.label "&amp;Effettua le statistiche di accesso">
+<!ENTITY showinstatusbar.label "Vi&amp;sualizza nella barra di stato">
+<!ENTITY sidebar.title "Elenco degli elementi bloccabili con StopAll Ads">
+<!ENTITY options.label "&amp;Opzioni di StopAll Ads">
+<!ENTITY context.object.label "Blocca oggetto con StopAll Ads">
+<!ENTITY context.removeWhitelist.label "Riattiva StopAll Ads nella pagina attuale">
+<!ENTITY filters.tooltip "Filtri di StopAll Ads maggiormente attivi">
+<!ENTITY closesidebar.label "Chiudi l'elenco degli elementi &amp;bloccabili">
+<!ENTITY showintoolbar.label "Visualizza nella &amp;barra degli strumenti">
+<!ENTITY status.tooltip "Stato di StopAll Ads">
+<!ENTITY context.media.label "Blocca video/audio con StopAll Ads">

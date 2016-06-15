@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Ně">
+<!ENTITY sync.label "Nastajenja za syn&amp;chronizěrowanje StopAll Ads">
+<!ENTITY whitelist.site.label "Na ?1? znjemóžniś">
+<!ENTITY notification.closing.button.hide "Toś tu po&amp;wěźeńku zacyniś">
+<!ENTITY filters.label "&amp;Filtrowe nastajenja">
+<!ENTITY disable.label "Wšuźi znjemóžniś">
+<!ENTITY objecttab.title "Blokěrowaś">
+<!ENTITY objecttab.tooltip "Klikniśo how, aby toś ten objekt z StopAll Ads blokěrował">
+<!ENTITY menuitem.label "StopAll Ads - &amp;Nastajenja">
+<!ENTITY objecttabs.label "&amp;Rejtarki wó Flash a Java pokazaś">
+<!ENTITY sendReport.label "&amp;Problem na toś tom boku k wěsći daś">
+<!ENTITY whitelist.page.label "Jano na toś tom boku znjemóžniś">
+<!ENTITY context.image.label "StopAll Ads: Wobraz blokěrowaś">
+<!ENTITY notification.button.yes "&amp;Jo">
+<!ENTITY opensidebar.label "B&amp;lokěrujobne zapiski wócyniś">
+<!ENTITY notification.button.close "&amp;Zacyniś">
+<!ENTITY shownotifications.label "Wužytne p&amp;owěźeńki pokazaś">
+<!ENTITY contribute.label "K StopAll Ads pśinosowaś">
+<!ENTITY toolbarbutton.label "StopAll Ads">
+<!ENTITY context.frame.label "StopAll Ads: Wobłuk blokěrowaś">
+<!ENTITY blocked.tooltip "Blokěrowane zapiski na toś tom boku:">
+<!ENTITY notification.closing.button.optout "Powěźeńki wěcej &amp;njepokazaś">
+<!ENTITY counthits.label "Fi&amp;ltrowe trjefarje licyś">
+<!ENTITY showinstatusbar.label "W &amp;statusowej lejstwje pokazaś">
+<!ENTITY sidebar.title "Blokěrujobne zapiski na aktualnem boku">
+<!ENTITY options.label "&amp;Opcije">
+<!ENTITY context.object.label "StopAll Ads: Objekt blokěrowaś">
+<!ENTITY context.removeWhitelist.label "StopAll Ads: Na toś tom boku zasej zmóžniś">
+<!ENTITY filters.tooltip "Nejaktiwnjejše filtry:">
+<!ENTITY closesidebar.label "B&amp;lokěrujobne zapiski zacyniś">
+<!ENTITY showintoolbar.label "W symbolowej rě&amp;dce pokazaś">
+<!ENTITY status.tooltip "Status:">
+<!ENTITY context.media.label "StopAll Ads: Awdio/Wideo blokěrowaś">

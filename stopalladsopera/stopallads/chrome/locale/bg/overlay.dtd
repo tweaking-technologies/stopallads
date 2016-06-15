@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Не">
+<!ENTITY sync.label "&amp;Сверявай настройките на StopAll Ads">
+<!ENTITY whitelist.site.label "Забрани за ?1?">
+<!ENTITY notification.closing.button.hide "Затвори &amp;уведомяването">
+<!ENTITY filters.label "Настройки на &amp;филтъра">
+<!ENTITY disable.label "Забрани навсякъде">
+<!ENTITY objecttab.title "Блокирай">
+<!ENTITY objecttab.tooltip "Щракнете за блокиране на обекта с StopAll Ads">
+<!ENTITY menuitem.label "Настро&amp;йки на StopAll Ads">
+<!ENTITY objecttabs.label "Показвай Flash и Java в пре&amp;градки">
+<!ENTITY sendReport.label "&amp;Докладвай неизправност в страницата">
+<!ENTITY whitelist.page.label "Забрани за страницата">
+<!ENTITY context.image.label "StopAll Ads: блокирана картина">
+<!ENTITY notification.button.yes "&amp;Да">
+<!ENTITY opensidebar.label "Отвори &amp;блокираните елементи">
+<!ENTITY notification.button.close "&amp;Затвори">
+<!ENTITY shownotifications.label "Показвай само &amp;полезните">
+<!ENTITY contribute.label "Помогни на StopAll Ads">
+<!ENTITY toolbarbutton.label "StopAll Ads">
+<!ENTITY context.frame.label "StopAll Ads: блокирана рамка">
+<!ENTITY blocked.tooltip "Блокирани елементи в страницата:">
+<!ENTITY notification.closing.button.optout "Спри &amp;всички уведомявания">
+<!ENTITY counthits.label "Отброявай попа&amp;денията на филтъра">
+<!ENTITY showinstatusbar.label "&amp;Показвай в лентата на състоянието">
+<!ENTITY sidebar.title "Блокирани елементи в страницата">
+<!ENTITY options.label "&amp;Настройки">
+<!ENTITY context.object.label "StopAll Ads: блокиран обект">
+<!ENTITY context.removeWhitelist.label "StopAll Ads: разреши за страницата">
+<!ENTITY filters.tooltip "Най-дейни филтри:">
+<!ENTITY closesidebar.label "Затвори &amp;блокираните елементи">
+<!ENTITY showintoolbar.label "По&amp;казвай в лентата с инструменти">
+<!ENTITY status.tooltip "Състояние:">
+<!ENTITY context.media.label "StopAll Ads: блокиран звук/видео">

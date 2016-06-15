@@ -1,0 +1,30 @@
+<!ENTITY notification.button.no "&amp; Nē">
+<!ENTITY sync.label "Sinhronizet StopAll Ads uzstādījumus">
+<!ENTITY whitelist.site.label "Atspējot uz ?1?">
+<!ENTITY filters.label "Filtra preferences">
+<!ENTITY disable.label "Atspējot visur">
+<!ENTITY objecttab.title "Bloķēt">
+<!ENTITY objecttab.tooltip "Noklikšķiniet šeit, lai bloķētu šo objektu ar StopAll Ads">
+<!ENTITY menuitem.label "StopAll Ads Iestatījumi">
+<!ENTITY objecttabs.label "Rādī&amp;t cilnes Flash un Java">
+<!ENTITY sendReport.label "&amp;Ziņot par problēmām šajā lapā">
+<!ENTITY whitelist.page.label "Atspējot tikai šajā lapā">
+<!ENTITY context.image.label "StopAll Ads: Bloķēt attēlu">
+<!ENTITY notification.button.yes "&amp; Jā">
+<!ENTITY opensidebar.label "Atvērt bloķējamās vienības">
+<!ENTITY notification.button.close "&amp; Aizvērt">
+<!ENTITY contribute.label "Palīdziet StopAll Ads veidošanai, tulkošanai...">
+<!ENTITY toolbarbutton.label "StopAll Ads">
+<!ENTITY context.frame.label "StopAll Ads: Bloķēt rāmi">
+<!ENTITY blocked.tooltip "Bloķētās vienības šajā lapā:">
+<!ENTITY counthits.label "Skaitīt filtra izmantojumus">
+<!ENTITY showinstatusbar.label "Rādīt stāvokļa joslā">
+<!ENTITY sidebar.title "Bloķējamās vienības šajā lapā">
+<!ENTITY options.label "Iespējas">
+<!ENTITY context.object.label "StopAll Ads: Bloķēt objektu">
+<!ENTITY context.removeWhitelist.label "StopAll Ads: Iespējot šajā lapā">
+<!ENTITY filters.tooltip "Visaktīvākie filtri:">
+<!ENTITY closesidebar.label "Aizvērt bloķējamās vienības">
+<!ENTITY showintoolbar.label "Rādīt rīkjoslā">
+<!ENTITY status.tooltip "Statuss:">
+<!ENTITY context.media.label "StopAll Ads: Bloķēt audio/video">

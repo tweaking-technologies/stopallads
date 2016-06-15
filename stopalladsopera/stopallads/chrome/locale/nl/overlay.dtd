@@ -1,0 +1,33 @@
+<!ENTITY notification.button.no "&amp;Nee">
+<!ENTITY sync.label "StopAll Ads-instellingen syn&amp;chroniseren">
+<!ENTITY whitelist.site.label "Uitschakelen op ?1?">
+<!ENTITY notification.closing.button.hide "D&amp;eze melding sluiten">
+<!ENTITY filters.label "&amp;Filtervoorkeuren">
+<!ENTITY disable.label "Overal uitschakelen">
+<!ENTITY objecttab.title "Blokkeren">
+<!ENTITY objecttab.tooltip "Klik hier om dit object te blokkeren met StopAll Ads">
+<!ENTITY menuitem.label "&amp;StopAll Ads-voorkeuren">
+<!ENTITY objecttabs.label "&amp;Tabs tonen bij Flash en Java">
+<!ENTITY sendReport.label "&amp;Probleem op deze pagina melden">
+<!ENTITY whitelist.page.label "Alleen op deze pagina uitschakelen">
+<!ENTITY context.image.label "StopAll Ads: afbeelding blokkeren">
+<!ENTITY notification.button.yes "&amp;Ja">
+<!ENTITY opensidebar.label "&amp;Blokkeerbare items openen">
+<!ENTITY notification.button.close "&amp;Sluiten">
+<!ENTITY shownotifications.label "Nuttige &amp;meldingen tonen">
+<!ENTITY contribute.label "Bijdragen aan StopAll Ads">
+<!ENTITY toolbarbutton.label "StopAll Ads">
+<!ENTITY context.frame.label "StopAll Ads: deelvenster blokkeren">
+<!ENTITY blocked.tooltip "Geblokkeerde items op deze pagina:">
+<!ENTITY notification.closing.button.optout "Tonen van meldingen &amp;stoppen">
+<!ENTITY counthits.label "&amp;Filtertreffers tellen">
+<!ENTITY showinstatusbar.label "Tonen in &amp;statusbalk">
+<!ENTITY sidebar.title "Blokkeerbare items op deze pagina">
+<!ENTITY options.label "&amp;Opties">
+<!ENTITY context.object.label "StopAll Ads: object blokkeren">
+<!ENTITY context.removeWhitelist.label "StopAll Ads: opnieuw inschakelen op deze pagina">
+<!ENTITY filters.tooltip "Meest actieve filters:">
+<!ENTITY closesidebar.label "&amp;Blokkeerbare items sluiten">
+<!ENTITY showintoolbar.label "Tonen in werk&amp;balk">
+<!ENTITY status.tooltip "Status:">
+<!ENTITY context.media.label "StopAll Ads: audio/video blokkeren">

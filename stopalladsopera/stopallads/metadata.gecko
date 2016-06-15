@@ -1,0 +1,80 @@
+[general]
+id={6c9d5a11-9d2b-4c10-cd40-61fc083d5001}
+basename=stopallads
+version=1.0.89
+author=Tweaking Technologies
+options=chrome://stopallads/content/ui/settings.xul
+optionsType=2
+
+[contributors]
+
+additional=stopalladscore/chrome/content/ui/subscriptions.xml //subscription/@author
+
+[homepage]
+default=http://www.stopallads.com/
+ar=http://www.stopallads.com/ar/
+de=http://www.stopallads.com/de/
+en=http://www.stopallads.com/en/
+es=http://www.stopallads.com/es/
+fr=http://www.stopallads.com/fr/
+he=http://www.stopallads.com/he/
+ko=http://www.stopallads.com/ko/
+ru=http://www.stopallads.com/ru/
+zh-CN=http://www.stopallads.com/zh_CN/
+zh-TW=http://www.stopallads.com/zh_TW/
+
+[compat]
+firefox=38.0/48.0
+fennec2=38.0/48.0
+thunderbird=38.0/48.0
+seamonkey=2.35/2.45
+toolkit=38.0/48.0
+
+[mapping]
+chrome/content/ui/firstRun.js = stopalladsui/firstRun.js
+chrome/content/ui/common.js = stopalladsui/common.js
+chrome/content/ui/i18n.js = stopalladsui/i18n.js
+chrome/content/ui/skin/firstRun.css = stopalladsui/skin/firstRun.css
+chrome/content/ui/skin/common.css = stopalladsui/skin/common.css
+chrome/content/ui/skin/abp-128.png = stopalladsui/skin/abp-128.png
+chrome/content/ui/skin/ajax-loader.gif = stopalladsui/skin/ajax-loader.gif
+chrome/content/ui/skin/background.png = stopalladsui/skin/background.png
+chrome/content/ui/skin/background-main.png = stopalladsui/skin/background-main.png
+chrome/content/ui/skin/background-share.png = stopalladsui/skin/background-share.png
+chrome/content/ui/skin/donate.png = stopalladsui/skin/donate.png
+chrome/content/ui/skin/abb-logo.png = stopalladsui/skin/abb-logo.png
+chrome/content/ui/skin/features/malware.png = stopalladsui/skin/features/malware.png
+chrome/content/ui/skin/features/social.png = stopalladsui/skin/features/social.png
+chrome/content/ui/skin/features/tracking.png = stopalladsui/skin/features/tracking.png
+chrome/content/ui/skin/fonts/CreteRound-Italic.otf = stopalladsui/skin/fonts/CreteRound-Italic.otf
+chrome/content/ui/skin/fonts/CreteRound-Regular.otf = stopalladsui/skin/fonts/CreteRound-Regular.otf
+chrome/content/ui/skin/social/facebook.png = stopalladsui/skin/social/facebook.png
+chrome/content/ui/skin/social/googleplus.png = stopalladsui/skin/social/googleplus.png
+chrome/content/ui/skin/social/renren.png = stopalladsui/skin/social/renren.png
+chrome/content/ui/skin/social/twitter.png = stopalladsui/skin/social/twitter.png
+chrome/content/ui/skin/social/weibo.png = stopalladsui/skin/social/weibo.png
+chrome/content/ui/ext/common.js = ext/common.js
+chrome/content/ui/ext/content.js = ext/content.js
+chrome/content/ui/subscriptions.xml = stopalladscore/chrome/content/ui/subscriptions.xml
+chrome/content/cssProperties.js = stopalladscore/chrome/content/cssProperties.js
+lib/ext_background.js = ext/background.js
+lib/ext_common.js = ext/common.js
+lib/messageResponder.js = stopalladsui/messageResponder.js
+lib/antiadblockInit.js = stopalladscore/lib/antiadblockInit.js
+lib/cssRules.js = stopalladscore/lib/cssRules.js
+lib/downloader.js = stopalladscore/lib/downloader.js
+lib/elemHide.js = stopalladscore/lib/elemHide.js
+lib/filterClasses.js = stopalladscore/lib/filterClasses.js
+lib/filterListener.js = stopalladscore/lib/filterListener.js
+lib/filterNotifier.js = stopalladscore/lib/filterNotifier.js
+lib/filterStorage.js = stopalladscore/lib/filterStorage.js
+lib/matcher.js = stopalladscore/lib/matcher.js
+lib/notification.js = stopalladscore/lib/notification.js
+lib/subscriptionClasses.js = stopalladscore/lib/subscriptionClasses.js
+lib/synchronizer.js = stopalladscore/lib/synchronizer.js
+
+chrome/content/ui/ext/m.js = stopalladsui/ext/m.js
+chrome/content/ui/ext/analytics.js = stopalladsui/ext/analytics.js
+
+[import_locales]
+stopalladsui/locale/*/firstRun.json = *
